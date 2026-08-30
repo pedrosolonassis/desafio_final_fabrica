@@ -1,0 +1,41 @@
+id_paciente,tipo_plano,valor_consulta,dias_atraso,numero_atrasos,status_pagamento,atraso_medio_pagamento,risco_inadimplencia
+1,Unimed,300.0,0,0,Pago,0.0,Baixo
+2,Particular,250.0,0,0,Pago,0.0,Baixo
+3,Bradesco Saúde,280.0,0,0,Cancelado,0.0,Baixo
+4,Hapvida,290.0,25,3,Pendente,8.33,Alto
+5,Particular,300.0,0,0,Pago,0.0,Baixo
+6,Unimed,350.0,0,0,Pago,0.0,Baixo
+7,Amil,270.0,35,4,Pendente,8.75,Alto
+8,Bradesco Saúde,240.0,0,0,Pago,0.0,Baixo
+9,Particular,320.0,0,0,Pago,0.0,Baixo
+10,Unimed,300.0,0,0,Pago,0.0,Baixo
+11,Hapvida,260.0,15,2,Pendente,7.5,Médio
+12,Particular,310.0,0,0,Pago,0.0,Baixo
+13,Amil,280.0,40,5,Pendente,8.0,Alto
+14,Bradesco Saúde,300.0,0,0,Pago,0.0,Baixo
+15,Unimed,330.0,0,0,Pago,0.0,Baixo
+16,Particular,250.0,5,1,Pago,5.0,Médio
+17,Unimed,300.0,0,0,Pago,0.0,Baixo
+18,Hapvida,270.0,18,2,Pendente,9.0,Médio
+19,Bradesco Saúde,320.0,0,0,Pago,0.0,Baixo
+20,Particular,400.0,45,6,Pendente,7.5,Alto
+21,Amil,280.0,30,3,Pendente,10.0,Alto
+22,Unimed,350.0,0,0,Pago,0.0,Baixo
+23,Particular,250.0,2,1,Pago,2.0,Médio
+24,Bradesco Saúde,300.0,0,0,Pago,0.0,Baixo
+25,Hapvida,290.0,22,3,Pendente,7.33,Alto
+26,Particular,350.0,0,0,Pago,0.0,Baixo
+27,Unimed,300.0,0,0,Pago,0.0,Baixo
+28,Amil,270.0,38,4,Pendente,9.5,Alto
+29,Particular,310.0,0,0,Pago,0.0,Baixo
+30,Bradesco Saúde,280.0,0,0,Pago,0.0,Baixo
+31,Unimed,300.0,0,0,Pago,0.0,Baixo
+32,Hapvida,260.0,19,2,Pendente,9.5,Médio
+33,Particular,320.0,0,0,Pago,0.0,Baixo
+34,Amil,280.0,28,3,Pendente,9.33,Alto
+35,Unimed,300.0,0,0,Pago,0.0,Baixo
+36,Bradesco Saúde,290.0,0,0,Pago,0.0,Baixo
+37,Particular,350.0,8,1,Pago,8.0,Médio
+38,Unimed,300.0,0,0,Pago,0.0,Baixo
+39,Hapvida,270.0,21,3,Pendente,7.0,Alto
+40,Particular,400.0,50,7,Pendente,7.14,Alto
