@@ -1,0 +1,105 @@
+CONSULTA 1: Distribuição de Pacientes por Tipo de Plano (COUNT)
+
+• Descrição: Agrupa a contagem de pacientes cadastrados de acordo com o plano de saúde ou particular.
+• Resultado: 
+  - Unimed: 5 pacientes (33.3%)
+  - Particular: 4 pacientes (26.7%)
+  - Bradesco Saúde: 3 pacientes (20.0%)
+  - Amil: 2 pacientes (13.3%)
+  - Hapvida: 1 paciente (6.7%)
+• Insight: 
+  A carteira da clínica possui alta dependência de convênios tradicionais, com a Unimed 
+  liderando o volume de cadastros. No entanto, o segmento Particular representa mais de 
+  um quarto da base, o que indica uma oportunidade estratégica de criar programas de 
+  fidelidade ou pacotes preventivos diretos para maximizar a margem de lucro operacional 
+  sem a retenção de taxas de operadoras.
+
+
+CONSULTA 2: Faturamento Total e Ticket Médio por Método de Pagamento (SUM e AVG)
+
+• Descrição: Calcula a soma do faturamento e a média de valor por transação liquidada para cada método de pagamento.
+• Resultado:
+  - Cartão: R$1.270,00 arrecadados | Ticket Médio:R$ 317,50 (4 transações)
+  - Pix: R$1.120,00 arrecadados | Ticket Médio: R$280,00 (4 transações)
+  - Dinheiro: R$610,00 arrecadados | Ticket Médio: R$305,00 (2 transações)
+• Insight:
+  O Cartão e o Pix dominam amplamente o volume financeiro da clínica (mais de 79% do 
+  total arrecadado). O Cartão apresenta o maior ticket médio, indicando que consultas e 
+  procedimentos de maior valor agregado são parcelados/pagos via crédito. Incentivar o 
+  uso do Pix para esses valores pode reduzir custos com taxas de adquirência bancária.
+
+
+CONSULTA 3: Produtividade e Faturamento Gerado por Médico (SUM e COUNT)
+
+• Descrição: Mede a receita bruta gerada individualmente por cada médico a partir de consultas com status 'Realizada'.
+• Resultado:
+  - Dra. Beatriz Helena Lins (Neurologia): R$350,00 (1 consulta)
+  - Dr. Fernando Guedes Pinto (Reumatologia): R$330,00 (1 consulta)
+  - Dr. Lucas Medeiros Cunha (Psiquiatria): R$320,00 (1 consulta)
+  - Dr. Rodrigo Simões Tavares (Urologia): R$310,00 (1 consulta)
+  - Demais médicos com faturamentos entre R$230,00 e R$300,00.
+• Insight:
+  Neurologia e Reumatologia geram a maior receita unitária por consulta realizada. Médicos 
+  dessas especialidades possuem alta contribuição marginal para a clínica, sugerindo que 
+  a expansão de horários de agenda nessas áreas trará retorno financeiro imediato.
+
+
+CONSULTA 4: Dispersão de Valores por Especialidade (AVG, MIN, MAX)
+
+• Descrição: Avalia a média, valor mínimo e máximo cobrado nas consultas por especialidade médica.
+• Resultado:
+  - Maior média: Neurologia (R$350,00), Reumatologia (R$330,00) e Psiquiatria (R$320,00).
+  - Menor média: Otorrinolaringologia (R$230,00 - com desconto) e Oftalmologia (R$240,00).
+• Insight:
+  Existe uma amplitude de R$120,00 entre a especialidade mais cara e a mais acessível. 
+  Especialidades de entrada como Oftalmologia e Otorrinolaringologia funcionam bem como 
+  porta de atração de novos pacientes, possibilitando estratégias de cross-selling para 
+  encaminhamentos em áreas de maior valor agregado.
+
+
+PARTE 2: CONSULTAS COM OPERAÇÕES DE JOIN
+
+
+CONSULTA 5: Relatório Geral Integrado de Consultas (INNER JOIN Múltiplo)
+
+• Descrição: Cruza dados de consultas, pacientes, médicos e especialidades em uma única visão tabular operacional.
+• Resultado: Visão unificada trazendo paciente, plano, médico responsável, CRM, especialidade e status da consulta.
+• Insight:
+  Permite à recepção e à diretoria operacional identificar rapidamente gargalos de fluxo, 
+  como médicos com muitos agendamentos concentrados em determinados turnos ou padrões de 
+  agendamento por plano, facilitando o balanceamento da escala diária de consultórios.
+
+
+CONSULTA 6: Rastreabilidade de Diagnósticos e Prescrições (INNER JOIN Encadeado)
+
+• Descrição: Relaciona prontuários, prescrições e dados cadastrais do paciente para mapear tratamentos medicamentosos emitidos.
+• Resultado: Lista detalhada de pacientes, diagnósticos clínicos (ex: Hipertensão, Enxaqueca, Ansiedade) e fármacos associados com dosagem e frequência.
+• Insight:
+  A prevalência de medicamentos de uso contínuo (como anti-hipertensivos, ansiolíticos e 
+  neurológicos) aponta para uma base de pacientes crônicos que necessitam de retornos 
+  periódicos a cada 30 ou 60 dias. A clínica pode automatizar lembretes de retorno preventivo 
+  via WhatsApp/e-mail para fidelizar esse público.
+
+
+CONSULTA 7: Auditoria de Inadimplência e Status de Pagamento (LEFT JOIN)
+
+• Descrição: Cruza pacientes com consultas e pagamentos para identificar faturamentos pendentes ou cancelados.
+• Resultado: 
+  - 11 pagamentos confirmados ('Pago')
+  - 3 pendências financeiras associadas a pacientes que faltaram (status 'Faltou')
+  - 1 cancelamento sem cobrança
+• Insight:
+  O índice de pendência financeira está diretamente correlacionado com os no-shows 
+  (faltas não avisadas). A clínica perde receita direta de sala ociosa. Recomenda-se a 
+  adoção de cobrança de taxa de confirmação prévia ou política de pré-pagamento para 
+  consultas particulares e de primeira vez.
+
+
+CONSULTA 8: Taxa de Conversão de Prontuários Médicos por Profissional (LEFT JOIN)
+
+• Descrição: Contabiliza o número de prontuários clínicos válidos gerados por cada médico em relação às consultas agendadas.
+• Resultado: Médicos de consultas realizadas registraram 1 prontuário válido cada; médicos cujos pacientes faltaram registraram 0 prontuários clínicos efetivos.
+• Insight:
+  Identifica com precisão o impacto das faltas na produtividade médica. Médicos que tiveram 
+  no-shows ficaram com capacidade ociosa de atendimento, validando a necessidade de um modelo 
+  preditivo de Machine Learning para antecipar faltas e permitir o overbooking inteligente da agenda.
