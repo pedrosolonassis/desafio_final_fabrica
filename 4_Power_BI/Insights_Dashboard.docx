@@ -1,0 +1,42 @@
+Cards de KPI (Total de Pacientes, Faturamento Bruto e Médias):
+Apresentam a visão macro da operação da ClínicaCare, consolidando 40 pacientes monitorados, volume financeiro total transacionado na casa de R$ 12.000,00 e uma média global de atraso de 10 dias por paciente.
+
+Volume de Atendimentos por Tipo de Plano (Gráfico de Barras):
+Mapeia a demanda da clínica por categoria de convênio, evidenciando que pacientes Particulares e Unimed concentram o maior fluxo de consultas.
+
+Faturamento Acumulado por Status Financeiro (Gráfico de Colunas):
+Discrimina a receita financeira líquida já liquidada (Pago), o montante retido em inadimplência/espera (Pendente) e o volume perdido decorrente de cancelamentos (Cancelado).
+
+Proporção da Carteira por Convênio (Gráfico de Rosca/Pizza):
+Ilustra a participação percentual de cada modalidade de saúde na carteira ativa de clientes.
+
+Distribuição por Risco de Inadimplência (Gráfico de Barras - Machine Learning):
+Segmenta a base de pacientes sob a ótica preditiva do modelo nos clusters Baixo, Médio e Alto risco.
+
+Dispersão de Atrasos por Faixa de Dias (Gráfico de Linha):
+Demonstra o comportamento da curva de pagamento, mostrando a concentração de liquidações pontuais e a cauda longa de inadimplência crônica que atinge até 50 dias de atraso.
+
+Insights Práticos Retirados dos Dados
+
+Alta Concentração de Risco em Planos Específicos:
+Embora Particular e Unimed componham o maior volume operacional, os atrasos críticos superiores a 20 dias concentram-se fortemente nos planos Hapvida (37,5% dos atrasos da clínica) e Amil (31,2%).
+
+Impacto no Fluxo de Caixa por Inadimplência Crônica:
+Pacientes classificados como Risco Alto acumulam múltiplos atrasos sucessivos (3 a 7 ocorrências) e tempos médios de espera superiores a 25 dias, gerando um passivo financeiro desproporcional em relação ao volume de atendimentos que representam.
+
+Base Primária Saudável, mas com Gargalo de Recorrência:
+Mais de 60% da base opera sob Risco Baixo com pagamentos imediatos; contudo, os inadimplentes reincidentes não sofrem restrição de novo agendamento, perpetuando o ciclo de pendência financeira.
+
+Recomendações para Tomada de Decisão
+
+Implementação de Régua de Cobrança Preventiva Automatizada:
+Disparar notificações automáticas via WhatsApp/SMS 48 horas antes do vencimento para pacientes classificados preventivamente com Risco Médio e Alto pelo modelo preditivo.
+
+Política de Pagamento Antecipado para Convênios de Alto Risco:
+Exigir confirmação de coparticipação ou caução prévia para consultas agendadas via Hapvida e consultas particulares de alto valor que já possuam histórico de atraso registrado.
+
+Bloqueio de Reagendamento para Inadimplência Recorrente:
+Integrar o status preditivo de Risco Alto ao sistema de recepção da clínica, condicionando o agendamento de novas consultas à quitação integral das pendências anteriores.
+
+Negociação e Revisão de Contratos com Operadoras:
+Utilizar as métricas de atraso e glosas levantadas no dashboard para renegociar prazos de repasse financeiro junto às operadoras com maior índice de atrasos operacionais.
