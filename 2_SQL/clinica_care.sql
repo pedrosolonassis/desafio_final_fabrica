@@ -119,92 +119,92 @@ INSERT INTO pacientes (nome_completo, cpf, data_nascimento, genero, telefone, em
 
 -- Inserção de dados na tabela de médicos
 INSERT INTO medicos (nome_completo, crm, telefone, email, horario_atendimento, data_admissao, status, nota_avaliacoes) VALUES
-('Dr. Roberto Albuquerque', 'CRM-PB 1234', '83981110001', 'roberto.albuquerque@clinicacare.com', '08:00:00', '2015-02-01', 'Ativo', 4,95),
-('Dra. Mariana Vasconcelos', 'CRM-PB 2345', '83981110002', 'mariana.v@clinicacare.com', '09:00:00', '2016-06-15', 'Ativo', 4,88),
-('Dr. Carlos Eduardo Meireles', 'CRM-PB 3456', '83981110003', 'carlos.meireles@clinicacare.com', '08:30:00', '2018-01-10', 'Ativo', 4,75),
-('Dra. Juliana Aguiar Paiva', 'CRM-PB 4567', '83981110004', 'juliana.paiva@clinicacare.com', '10:00:00', '2019-04-20', 'Ativo', 4,92),
-('Dr. André Luiz Barreto', 'CRM-PB 5678', '83981110005', 'andre.barreto@clinicacare.com', '13:00:00', '2017-09-01', 'Ativo', 4,80),
-('Dra. Beatriz Helena Lins', 'CRM-PB 6789', '83981110006', 'beatriz.lins@clinicacare.com', '14:00:00', '2020-03-12', 'Ativo', 4,65),
-('Dr. Gustavo Henrique Neves', 'CRM-PB 7890', '83981110007', 'gustavo.neves@clinicacare.com', '08:00:00', '2021-08-01', 'Ativo', 4,70),
-('Dra. Renata Fontes Siqueira', 'CRM-PB 8901', '83981110008', 'renata.siqueira@clinicacare.com', '09:30:00', '2015-11-20', 'Ativo', 4,98),
-('Dr. Lucas Medeiros Cunha', 'CRM-PB 9012', '83981110009', 'lucas.cunha@clinicacare.com', '11:00:00', '2022-02-14', 'Ativo', 4,50),
-('Dra. Priscila Brandão Maia', 'CRM-PB 1357', '83981110010', 'priscila.maia@clinicacare.com', '14:30:00', '2018-07-05', 'Ativo', 4,85),
-('Dr. Thiago Caldas Macedo', 'CRM-PB 2468', '83981110011', 'thiago.macedo@clinicacare.com', '15:00:00', '2023-01-16', 'Ativo', 4,60),
-('Dra. Vanessa Aragão Rios', 'CRM-PB 3579', '83981110012', 'vanessa.rios@clinicacare.com', '10:30:00', '2019-10-01', 'Ativo', 4,90),
-('Dr. Rodrigo Simões Tavares', 'CRM-PB 4680', '83981110013', 'rodrigo.tavares@clinicacare.com', '16:00:00', '2020-05-18', 'Ativo', 4,78),
-('Dra. Letícia Carvalho Dias', 'CRM-PB 5791', '83981110014', 'leticia.dias@clinicacare.com', '07:30:00', '2016-12-01', 'Ativo', 4,91),
-('Dr. Fernando Guedes Pinto', 'CRM-PB 6802', '83981110015', 'fernando.pinto@clinicacare.com', '13:30:00', '2024-03-01', 'Ativo', 4,40);
+('Dr. Roberto Albuquerque', 'CRM-PB 1234', '83981110001', 'roberto.albuquerque@clinicacare.com', '08:00:00', '2015-02-01', 'Ativo', 4.95),
+('Dra. Mariana Vasconcelos', 'CRM-PB 2345', '83981110002', 'mariana.v@clinicacare.com', '09:00:00', '2016-06-15', 'Ativo', 4.88),
+('Dr. Carlos Eduardo Meireles', 'CRM-PB 3456', '83981110003', 'carlos.meireles@clinicacare.com', '08:30:00', '2018-01-10', 'Ativo', 4.75),
+('Dra. Juliana Aguiar Paiva', 'CRM-PB 4567', '83981110004', 'juliana.paiva@clinicacare.com', '10:00:00', '2019-04-20', 'Ativo', 4.92),
+('Dr. André Luiz Barreto', 'CRM-PB 5678', '83981110005', 'andre.barreto@clinicacare.com', '13:00:00', '2017-09-01', 'Ativo', 4.80),
+('Dra. Beatriz Helena Lins', 'CRM-PB 6789', '83981110006', 'beatriz.lins@clinicacare.com', '14:00:00', '2020-03-12', 'Ativo', 4.65),
+('Dr. Gustavo Henrique Neves', 'CRM-PB 7890', '83981110007', 'gustavo.neves@clinicacare.com', '08:00:00', '2021-08-01', 'Ativo', 4.70),
+('Dra. Renata Fontes Siqueira', 'CRM-PB 8901', '83981110008', 'renata.siqueira@clinicacare.com', '09:30:00', '2015-11-20', 'Ativo', 4.98),
+('Dr. Lucas Medeiros Cunha', 'CRM-PB 9012', '83981110009', 'lucas.cunha@clinicacare.com', '11:00:00', '2022-02-14', 'Ativo', 4.50),
+('Dra. Priscila Brandão Maia', 'CRM-PB 1357', '83981110010', 'priscila.maia@clinicacare.com', '14:30:00', '2018-07-05', 'Ativo', 4.85),
+('Dr. Thiago Caldas Macedo', 'CRM-PB 2468', '83981110011', 'thiago.macedo@clinicacare.com', '15:00:00', '2023-01-16', 'Ativo', 4.60),
+('Dra. Vanessa Aragão Rios', 'CRM-PB 3579', '83981110012', 'vanessa.rios@clinicacare.com', '10:30:00', '2019-10-01', 'Ativo', 4.90),
+('Dr. Rodrigo Simões Tavares', 'CRM-PB 4680', '83981110013', 'rodrigo.tavares@clinicacare.com', '16:00:00', '2020-05-18', 'Ativo', 4.78),
+('Dra. Letícia Carvalho Dias', 'CRM-PB 5791', '83981110014', 'leticia.dias@clinicacare.com', '07:30:00', '2016-12-01', 'Ativo', 4.91),
+('Dr. Fernando Guedes Pinto', 'CRM-PB 6802', '83981110015', 'fernando.pinto@clinicacare.com', '13:30:00', '2024-03-01', 'Ativo', 4.40);
 
 -- Inserção de dados na tabela de especialidades
 INSERT INTO especialidades (nome_especialidade, descricao, consulta_tempo_min, valor_medio, encaminhamento, qtde_formados, status) VALUES
-('Cardiologia', 'Diagnóstico e tratamento de doenças cardíacas', 40, 300,00, 'Não', 12, 'Ativa'),
-('Pediatria', 'Cuidados de saúde para bebês, crianças e adolescentes', 30, 250,00, 'Não', 18, 'Ativa'),
-('Dermatologia', 'Tratamento de doenças de pele, cabelos e unhas', 30, 280,00, 'Não', 15, 'Ativa'),
-('Ortopedia', 'Tratamento de lesões ósseas e articulares', 35, 290,00, 'Não', 10, 'Ativa'),
-('Ginecologia', 'Saúde do sistema reprodutor feminino e prevenção', 40, 300,00, 'Não', 14, 'Ativa'),
-('Neurologia', 'Diagnóstico de distúrbios do sistema nervoso', 50, 350,00, 'Sim', 8, 'Ativa'),
-('Endocrinologia', 'Tratamento de alterações hormonais e metabólicas', 35, 270,00, 'Não', 9, 'Ativa'),
-('Oftalmologia', 'Avaliação da visão e saúde ocular', 25, 240,00, 'Não', 11, 'Ativa'),
-('Psiquiatria', 'Diagnóstico e tratamento de transtornos mentais', 50, 320,00, 'Não', 13, 'Ativa'),
-('Gastroenterologia', 'Cuidados com o aparelho digestivo', 40, 300,00, 'Não', 7, 'Ativa'),
-('Otorrinolaringologia', 'Tratamento de ouvido, nariz e garganta', 30, 260,00, 'Não', 9, 'Ativa'),
-('Urologia', 'Saúde do sistema urinário e reprodutor masculino', 35, 310,00, 'Não', 6, 'Ativa'),
-('Nutrologia', 'Diagnóstico e prevenção de distúrbios nutricionais', 45, 280,00, 'Não', 5, 'Ativa'),
-('Pneumologia', 'Tratamento de doenças respiratórias e pulmonares', 40, 300,00, 'Sim', 6, 'Ativa'),
-('Reumatologia', 'Doenças inflamatórias e autoimunes', 45, 330,00, 'Sim', 4, 'Ativa');
+('Cardiologia', 'Diagnóstico e tratamento de doenças cardíacas', 40, 300.00, 'Não', 12, 'Ativa'),
+('Pediatria', 'Cuidados de saúde para bebês, crianças e adolescentes', 30, 250.00, 'Não', 18, 'Ativa'),
+('Dermatologia', 'Tratamento de doenças de pele, cabelos e unhas', 30, 280.00, 'Não', 15, 'Ativa'),
+('Ortopedia', 'Tratamento de lesões ósseas e articulares', 35, 290.00, 'Não', 10, 'Ativa'),
+('Ginecologia', 'Saúde do sistema reprodutor feminino e prevenção', 40, 300.00, 'Não', 14, 'Ativa'),
+('Neurologia', 'Diagnóstico de distúrbios do sistema nervoso', 50, 350.00, 'Sim', 8, 'Ativa'),
+('Endocrinologia', 'Tratamento de alterações hormonais e metabólicas', 35, 270.00, 'Não', 9, 'Ativa'),
+('Oftalmologia', 'Avaliação da visão e saúde ocular', 25, 240.00, 'Não', 11, 'Ativa'),
+('Psiquiatria', 'Diagnóstico e tratamento de transtornos mentais', 50, 320.00, 'Não', 13, 'Ativa'),
+('Gastroenterologia', 'Cuidados com o aparelho digestivo', 40, 300.00, 'Não', 7, 'Ativa'),
+('Otorrinolaringologia', 'Tratamento de ouvido, nariz e garganta', 30, 260.00, 'Não', 9, 'Ativa'),
+('Urologia', 'Saúde do sistema urinário e reprodutor masculino', 35, 310.00, 'Não', 6, 'Ativa'),
+('Nutrologia', 'Diagnóstico e prevenção de distúrbios nutricionais', 45, 280.00, 'Não', 5, 'Ativa'),
+('Pneumologia', 'Tratamento de doenças respiratórias e pulmonares', 40, 300.00, 'Sim', 6, 'Ativa'),
+('Reumatologia', 'Doenças inflamatórias e autoimunes', 45, 330.00, 'Sim', 4, 'Ativa');
 
 -- Inserção de dados na tabela de consultas
 INSERT INTO consultas (id_paciente, id_medico, id_especialidade, data_consulta, hora_consulta, status, valor_consulta) VALUES
-(1, 1, 1, '2026-05-10', '08:00:00', 'Realizada', 300,00),
-(2, 2, 2, '2026-05-11', '09:00:00', 'Realizada', 250,00),
-(3, 3, 3, '2026-05-12', '08:30:00', 'Cancelada', 280,00),
-(4, 4, 4, '2026-05-13', '10:00:00', 'Faltou', 290,00),
-(5, 5, 5, '2026-05-14', '13:00:00', 'Realizada', 300,00),
-(6, 6, 6, '2026-05-15', '14:00:00', 'Realizada', 350,00),
-(8, 8, 8, '2026-06-02', '09:30:00', 'Realizada', 240,00),
-(9, 9, 9, '2026-06-03', '11:00:00', 'Realizada', 320,00),
-(10, 10, 10, '2026-06-04', '14:30:00', 'Realizada', 300,00),
-(11, 11, 11, '2026-06-05', '15:00:00', 'Agendada', 260,00),
-(12, 12, 12, '2026-06-08', '10:30:00', 'Realizada', 310,00),
-(13, 13, 13, '2026-06-09', '16:00:00', 'Faltou', 280,00),
-(14, 14, 14, '2026-06-10', '07:30:00', 'Realizada', 300,00),
-(15, 15, 15, '2026-06-11', '13:30:00', 'Realizada', 330,00);
+(1, 1, 1, '2026-05-10', '08:00:00', 'Realizada', 300.00),
+(2, 2, 2, '2026-05-11', '09:00:00', 'Realizada', 250.00),
+(3, 3, 3, '2026-05-12', '08:30:00', 'Cancelada', 280.00),
+(4, 4, 4, '2026-05-13', '10:00:00', 'Faltou', 290.00),
+(5, 5, 5, '2026-05-14', '13:00:00', 'Realizada', 300.00),
+(6, 6, 6, '2026-05-15', '14:00:00', 'Realizada', 350.00),
+(8, 8, 8, '2026-06-02', '09:30:00', 'Realizada', 240.00),
+(9, 9, 9, '2026-06-03', '11:00:00', 'Realizada', 320.00),
+(10, 10, 10, '2026-06-04', '14:30:00', 'Realizada', 300.00),
+(11, 11, 11, '2026-06-05', '15:00:00', 'Agendada', 260.00),
+(12, 12, 12, '2026-06-08', '10:30:00', 'Realizada', 310.00),
+(13, 13, 13, '2026-06-09', '16:00:00', 'Faltou', 280.00),
+(14, 14, 14, '2026-06-10', '07:30:00', 'Realizada', 300.00),
+(15, 15, 15, '2026-06-11', '13:30:00', 'Realizada', 330.00);
 
--- Inserção de dados na tabela de pagamentos 
-INSERT INTO pagamentos (id_consulta, valor_pago, metodo_pagamento, status, data, recibo, convenio) VALUES
-(1, 300,00, 'Cartao', 'Pago', '2026-05-10 08:45:00', 'REC-001', 'Unimed'),
-(2, 250,00, 'Pix', 'Pago', '2026-05-11 09:35:00', 'REC-002', 'Particular'),
-(3, 0,00, 'Nenhum', 'Cancelado', '2026-05-12 08:30:00', 'REC-003', 'Bradesco Saúde'),
-(4, 0,00, 'Nenhum', 'Pendente', '2026-05-13 10:00:00', 'REC-004', 'Hapvida'),
-(5, 300,00, 'Dinheiro', 'Pago', '2026-05-14 13:40:00', 'REC-005', 'Particular'),
-(6, 350,00, 'Cartao', 'Pago', '2026-05-15 14:50:00', 'REC-006', 'Unimed'),
-(7, 0,00, 'Nenhum', 'Pendente', '2026-06-01 08:00:00', 'REC-007', 'Amil'),
-(8, 240,00, 'Pix', 'Pago', '2026-06-02 10:00:00', 'REC-008', 'Bradesco Saúde'),
-(9, 320,00, 'Cartao', 'Pago', '2026-06-03 11:55:00', 'REC-009', 'Particular'),
-(10, 300,00, 'Pix', 'Pago', '2026-06-04 15:10:00', 'REC-010', 'Unimed'),
-(11, 260,00, 'Cartao', 'Pendente', '2026-06-05 15:00:00', 'REC-011', 'Hapvida'),
-(12, 310,00, 'Dinheiro', 'Pago', '2026-06-08 11:15:00', 'REC-012', 'Particular'),
-(13, 0,00, 'Nenhum', 'Pendente', '2026-06-09 16:00:00', 'REC-013', 'Amil'),
-(14, 300,00, 'Cartao', 'Pago', '2026-06-10 08:15:00', 'REC-014', 'Bradesco Saúde'),
-(15, 330,00, 'Pix', 'Pago', '2026-06-11 14:20:00', 'REC-015', 'Unimed');
+-- Inserção de dados na tabela de consultas
+INSERT INTO consultas (id_paciente, id_medico, id_especialidade, data_consulta, hora_consulta, status, valor_consulta) VALUES
+(1, 1, 1, '2026-05-10', '08:00:00', 'Realizada', 300.00),
+(2, 2, 2, '2026-05-11', '09:00:00', 'Realizada', 250.00),
+(3, 3, 3, '2026-05-12', '08:30:00', 'Cancelada', 280.00),
+(4, 4, 4, '2026-05-13', '10:00:00', 'Faltou', 290.00),
+(5, 5, 5, '2026-05-14', '13:00:00', 'Realizada', 300.00),
+(6, 6, 6, '2026-05-15', '14:00:00', 'Realizada', 350.00),
+(7, 7, 7, '2026-06-01', '08:00:00', 'Faltou', 270.00), -- LINHA ADICIONADA
+(8, 8, 8, '2026-06-02', '09:30:00', 'Realizada', 240.00),
+(9, 9, 9, '2026-06-03', '11:00:00', 'Realizada', 320.00),
+(10, 10, 10, '2026-06-04', '14:30:00', 'Realizada', 300.00),
+(11, 11, 11, '2026-06-05', '15:00:00', 'Agendada', 260.00),
+(12, 12, 12, '2026-06-08', '10:30:00', 'Realizada', 310.00),
+(13, 13, 13, '2026-06-09', '16:00:00', 'Faltou', 280.00),
+(14, 14, 14, '2026-06-10', '07:30:00', 'Realizada', 300.00),
+(15, 15, 15, '2026-06-11', '13:30:00', 'Realizada', 330.00);
 
 -- Inserção de dados na tabela de prontuário
 INSERT INTO prontuario (id_consulta, id_paciente, data_registro, pressao, altura, peso, diagnostico, anotacoes) VALUES
-(1, 1, '2026-05-10 08:40:00', '12/8', 1,65, 62,00, 'Hipertensão Leve', 'Paciente relata estresse frequente. Solicitado ECG.'),
-(2, 2, '2026-05-11 09:30:00', '11/7', 1,20, 24,50, 'Gripe Sazonal', 'Criança com febre e coriza há 2 dias. Hidratação reforçada.'),
-(3, 3, '2026-05-12 08:30:00', '12/8', 1,68, 58,00, 'Não Avaliado', 'Consulta cancelada previamente.'),
-(4, 4, '2026-05-13 10:00:00', '12/8', 1,75, 82,00, 'Não Avaliado', 'Paciente faltou à consulta.'),
-(5, 5, '2026-05-14 13:35:00', '12/7', 1,60, 55,00, 'Check-up Ginecológico', 'Exames preventivos de rotina sem alterações aparentes.'),
-(6, 6, '2026-05-15 14:45:00', '13/8', 1,80, 88,00, 'Enxaqueca Crônica', 'Crises intensas no período da tarde. Recomendado diário de dor.'),
-(7, 7, '2026-06-01 08:00:00', '12/8', 1,70, 70,00, 'Não Avaliado', 'Paciente faltou à consulta.'),
-(8, 8, '2026-06-02 09:55:00', '12/8', 1,72, 76,00, 'Miopia e Astigmatismo', 'Prescrição de lentes corretivas atualizada.'),
-(9, 9, '2026-06-03 11:50:00', '12/8', 1,64, 60,00, 'Transtorno de Ansiedade', 'Início de acompanhamento psicoterapêutico associado.'),
-(10, 10, '2026-06-04 15:05:00', '13/9', 1,78, 84,00, 'Gastrite Nervosa', 'Apresenta queimação epigástrica. Indicada dieta branda.'),
-(11, 11, '2026-06-05 15:00:00', '12/8', 1,62, 59,00, 'Em Aguardo', 'Atendimento agendado.'),
-(12, 12, '2026-06-08 11:10:00', '12/8', 1,76, 80,00, 'Cálculo Renal', 'Sintomas de cólica renal moderada. USG solicitada.'),
-(13, 13, '2026-06-09 16:00:00', '12/8', 1,67, 68,00, 'Não Avaliado', 'Paciente faltou à consulta.'),
-(14, 14, '2026-06-10 08:10:00', '14/9', 1,71, 79,00, 'Asma Leve', 'Episódios esporádicos de falta de ar no inverno.'),
-(15, 15, '2026-06-11 14:15:00', '12/8', 1,58, 54,00, 'Artrite Inicial', 'Dores matinais nas articulações das mãos.');
+(1, 1, '2026-05-10 08:40:00', '12/8', 1.65, 62.00, 'Hipertensão Leve', 'Paciente relata estresse frequente. Solicitado ECG.'),
+(2, 2, '2026-05-11 09:30:00', '11/7', 1.20, 24.50, 'Gripe Sazonal', 'Criança com febre e coriza há 2 dias. Hidratação reforçada.'),
+(3, 3, '2026-05-12 08:30:00', '12/8', 1.68, 58.00, 'Não Avaliado', 'Consulta cancelada previamente.'),
+(4, 4, '2026-05-13 10:00:00', '12/8', 1.75, 82.00, 'Não Avaliado', 'Paciente faltou à consulta.'),
+(5, 5, '2026-05-14 13:35:00', '12/7', 1.60, 55.00, 'Check-up Ginecológico', 'Exames preventivos de rotina sem alterações aparentes.'),
+(6, 6, '2026-05-15 14:45:00', '13/8', 1.80, 88.00, 'Enxaqueca Crônica', 'Crises intensas no período da tarde. Recomendado diário de dor.'),
+(7, 7, '2026-06-01 08:00:00', '12/8', 1.70, 70.00, 'Não Avaliado', 'Paciente faltou à consulta.'),
+(8, 8, '2026-06-02 09:55:00', '12/8', 1.72, 76.00, 'Miopia e Astigmatismo', 'Prescrição de lentes corretivas atualizada.'),
+(9, 9, '2026-06-03 11:50:00', '12/8', 1.64, 60.00, 'Transtorno de Ansiedade', 'Início de acompanhamento psicoterapêutico associado.'),
+(10, 10, '2026-06-04 15:05:00', '13/9', 1.78, 84.00, 'Gastrite Nervosa', 'Apresenta queimação epigástrica. Indicada dieta branda.'),
+(11, 11, '2026-06-05 15:00:00', '12/8', 1.62, 59.00, 'Em Aguardo', 'Atendimento agendado.'),
+(12, 12, '2026-06-08 11:10:00', '12/8', 1.76, 80.00, 'Cálculo Renal', 'Sintomas de cólica renal moderada. USG solicitada.'),
+(13, 13, '2026-06-09 16:00:00', '12/8', 1.67, 68.00, 'Não Avaliado', 'Paciente faltou à consulta.'),
+(14, 14, '2026-06-10 08:10:00', '14/9', 1.71, 79.00, 'Asma Leve', 'Episódios esporádicos de falta de ar no inverno.'),
+(15, 15, '2026-06-11 14:15:00', '12/8', 1.58, 54.00, 'Artrite Inicial', 'Dores matinais nas articulações das mãos.');
 
 -- Inserção de dados na tabela de prescrições
 INSERT INTO prescricoes (id_prontuario, medicamento, dosagem, frequencia, duracao_dias, tipo_medicamento, instrucoes) VALUES
@@ -226,12 +226,12 @@ INSERT INTO prescricoes (id_prontuario, medicamento, dosagem, frequencia, duraca
 
 -- Update 1: Atualizar o status da consulta agendada 11 para "Realizada" e ajustar seu valor com desconto
 UPDATE consultas 
-SET status = 'Realizada', valor_consulta = 230,00 
+SET status = 'Realizada', valor_consulta = 230.00 
 WHERE id_consulta = 11;
 
 -- Update 2: Baixar o pagamento referente à consulta 11 de "Pendente" para "Pago" com Pix
 UPDATE pagamentos 
-SET status = 'Pago', valor_pago = 230,00, metodo_pagamento = 'Pix' 
+SET status = 'Pago', valor_pago = 230.00, metodo_pagamento = 'Pix' 
 WHERE id_consulta = 11;
 
 -- Update 3: Atualizar o diagnóstico e notas no prontuário da consulta 11 que foi finalizada
